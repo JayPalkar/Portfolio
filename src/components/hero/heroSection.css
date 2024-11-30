@@ -1,0 +1,30 @@
+.heroSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.greetingText {
+  font-family: "Pompiere";
+  color: #e3ca3c;
+  font-size: 2rem;
+}
+
+.nameText {
+  font-family: "Rammetto One";
+  color: #fff;
+  font-size: 3rem;
+}
+
+.domainText {
+  font-family: "poppins";
+  color: #fff;
+  font-size: 2rem;
+}
+
+.tagLine {
+  font-family: "montserrat";
+  color: #fff;
+  font-size: 1.5rem;
+}
