@@ -1,0 +1,77 @@
+.aboutMeSection {
+  padding: 2% 3%;
+}
+
+.aboutMeHeader {
+  position: relative;
+  font-family: "Rammetto One";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutMeHeader h1 {
+  color: #fff;
+}
+
+.backDrop {
+  opacity: 10%;
+  font-size: 6rem;
+  pointer-events: none;
+  user-select: none;
+}
+
+.fair {
+  position: absolute;
+  font-size: 4rem;
+  border-bottom: 2px solid #e3ca3c;
+}
+
+.descriptionAndImageContainer {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding: 1rem 15%;
+}
+
+.descriptionContainer {
+  color: #fff;
+  font-family: "montserrat";
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.descriptionContainer p span {
+  color: #e3ca3c;
+}
+.aboutMeImageContainer {
+  width: 100rem;
+}
+
+.aboutMeImageContainer img {
+  width: 100%;
+}
+
+.techStack {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.techStackImage {
+  max-width: 5rem;
+  height: 5rem;
+}
+
+.topStack {
+  display: flex;
+  gap: 15rem;
+}
+
+.bottomStack {
+  display: flex;
+  gap: 15rem;
+}
