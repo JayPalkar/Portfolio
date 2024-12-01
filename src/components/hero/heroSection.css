@@ -36,6 +36,17 @@
   font-weight: 300;
 }
 
+.imageContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroSectionImage {
+  position: absolute;
+}
+
 .sidebar {
   position: absolute;
   right: 4rem;

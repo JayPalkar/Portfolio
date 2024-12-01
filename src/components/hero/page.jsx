@@ -1,6 +1,7 @@
 import "./heroSection.css";
 import myImage from "../../assets/my.png";
 import SideNavbar from "../navbar/sideNavbar";
+import bgImage from "../../assets/aboutmeImg.png";
 
 const Hero = () => {
   return (
@@ -15,6 +16,7 @@ const Hero = () => {
           </h2>
         </div>
         <div className="imageContainer">
+          <img className="heroBackgroundImage" src={bgImage} alt="" />
           <img className="heroSectionImage" src={myImage} alt="" />
         </div>
       </section>
