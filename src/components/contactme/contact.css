@@ -1,0 +1,84 @@
+.contactSection {
+  padding: 2% 3%;
+}
+
+.contactHeader {
+  position: relative;
+  font-family: "Rammetto One";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactHeader h1 {
+  color: #fff;
+}
+
+.socialAndFormContainer {
+  padding: 2% 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #e3ca3c;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.socialIcons {
+  font-size: 1.8rem;
+}
+
+.socialText {
+  color: #fff;
+  font-family: "montserrat";
+}
+
+.formContainer {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.formContainer input,
+textarea {
+  padding: 0.5rem 0.6rem;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #e3ca3c;
+  font-size: 1rem;
+  font-family: "montserrat";
+  color: #e3ca3c;
+}
+
+.formContainer input::placeholder {
+  color: #e3ca3c;
+}
+
+.formContainer textarea::placeholder {
+  color: #e3ca3c;
+}
+.formContainer textarea {
+  resize: none;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.buttonContainer button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
