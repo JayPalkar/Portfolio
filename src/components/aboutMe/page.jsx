@@ -1,5 +1,5 @@
 import "./aboutMe.css";
-import aboutmeImg from "../../assets/aboutmeImg.png";
+import abouteMeVideo from "../../assets/aboutMe.mp4";
 import mongo from "../../assets/techstack/mongodb.png";
 import aws from "../../assets/techstack/aws.png";
 import express from "../../assets/techstack/express.png";
@@ -18,7 +18,9 @@ const AboutMe = () => {
         </div>
         <div className="descriptionAndImageContainer">
           <div className="aboutMeImageContainer">
-            <img src={aboutmeImg} alt="work icon" />
+            <video autoPlay muted loop>
+              <source src={abouteMeVideo} />
+            </video>
           </div>
           <div className="descriptionContainer">
             <p>

@@ -1,0 +1,15 @@
+.projectSection {
+  padding: 2% 3%;
+}
+
+.projectHeader {
+  position: relative;
+  font-family: "Rammetto One";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectHeader h1 {
+  color: #fff;
+}
