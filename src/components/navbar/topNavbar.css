@@ -1,0 +1,9 @@
+.brandName {
+  font-family: "poppins";
+  font-weight: 1000;
+  font-size: 3rem;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0rem 0.8rem;
+  border-right: 4px solid #e3ca3c;
+}
