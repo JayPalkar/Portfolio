@@ -20,11 +20,11 @@ const ContactMe = () => {
             <MdPhone className="socialIcons" />
             <p className="socialText">(+91) 9307943434</p>
           </a>
-          <a href="#">
+          <a href="https://github.com/JayPalkar">
             <FaGithub className="socialIcons" />
             <p className="socialText">JayPalkar</p>
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/jay-palkar-26b551220/">
             <FaLinkedin className="socialIcons" />
             <p className="socialText">JayPalkar</p>
           </a>
