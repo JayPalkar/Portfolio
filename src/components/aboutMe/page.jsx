@@ -11,7 +11,7 @@ import react from "../../assets/techstack/react.png";
 const AboutMe = () => {
   return (
     <>
-      <section className="aboutMeSection">
+      <section id="about" className="aboutMeSection">
         <div className="aboutMeHeader">
           <h1 className="backDrop">About Me</h1>
           <h1 className="fair">About Me</h1>

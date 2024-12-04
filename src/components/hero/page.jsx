@@ -6,7 +6,7 @@ import bgImage from "../../assets/aboutmeImg.png";
 const Hero = () => {
   return (
     <main className="heroAndSidebar">
-      <section className="heroSection">
+      <section id="hero" className="heroSection">
         <div className="textContainer">
           <p className="greetingText">Hello I&apos;m</p>
           <h1 className="nameText">Jay Palkar</h1>

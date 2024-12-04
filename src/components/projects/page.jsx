@@ -4,7 +4,7 @@ import project2 from "../../assets/projects/frontpage.png";
 
 const Projects = () => {
   return (
-    <section className="projectSection">
+    <section id="projects" className="projectSection">
       <div className="projectHeader">
         <h1 className="backDrop">Projects</h1>
         <h1 className="fair">Projects</h1>
