@@ -5,7 +5,7 @@ import ContactMe from "./components/contactme/page";
 import Hero from "./components/hero/page";
 import TopNavbar from "./components/navbar/topNavbar";
 import Projects from "./components/projects/page";
-import Testimonial from "./components/Testimonial/page";
+import StarsCanvas from "./components/starBackground/starBackground";
 
 const App = () => {
   useEffect(() => {
@@ -22,8 +22,27 @@ const App = () => {
     });
 
     const moveCursor = (e) => {
-      cursorBackdrop.style.left = `${e.pageX}px`;
-      cursorBackdrop.style.top = `${e.pageY}px`;
+      const scrollX = window.scrollX || document.documentElement.scrollLeft;
+      const scrollY = window.scrollY || document.documentElement.scrollTop;
+
+      const viewportWidth = window.innerWidth;
+      const viewportHeight = window.innerHeight;
+
+      const backdropSize = 300;
+
+      const cursorX = Math.max(
+        Math.min(e.pageX, scrollX + viewportWidth - backdropSize / 2),
+        scrollX + backdropSize / 2
+      );
+      const cursorY = Math.max(
+        Math.min(e.pageY, scrollY + viewportHeight - backdropSize / 2),
+        scrollY + backdropSize / 2
+      );
+
+      if (cursorBackdrop) {
+        cursorBackdrop.style.left = `${cursorX}px`;
+        cursorBackdrop.style.top = `${cursorY}px`;
+      }
     };
 
     window.addEventListener("mousemove", moveCursor);
@@ -41,9 +60,10 @@ const App = () => {
         <Hero />
         <AboutMe />
         <Projects />
-        <Testimonial />
+        {/* <Testimonial /> */}
         <ContactMe />
       </div>
+      <StarsCanvas />
     </>
   );
 };
