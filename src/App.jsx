@@ -5,7 +5,6 @@ import ContactMe from "./components/contactme/page";
 import Hero from "./components/hero/page";
 import TopNavbar from "./components/navbar/topNavbar";
 import Projects from "./components/projects/page";
-import StarsCanvas from "./components/starBackground/starBackground";
 
 const App = () => {
   useEffect(() => {
@@ -63,7 +62,6 @@ const App = () => {
         {/* <Testimonial /> */}
         <ContactMe />
       </div>
-      <StarsCanvas />
     </>
   );
 };
