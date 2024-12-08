@@ -8,7 +8,7 @@ const Hero = () => {
     <main className="heroAndSidebar">
       <section id="hero" className="heroSection">
         <div className="textContainer">
-          <p className="greetingText">Hello I&apos;m</p>
+          <p className="greetingText">Hello 👋 I&apos;m</p>
           <h1 className="nameText">Jay Palkar</h1>
           <h2 className="domainText">A Full Stack Developer</h2>
           <h2 className="tagLine">
