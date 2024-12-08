@@ -17,14 +17,14 @@
 .socialAndFormContainer {
   padding: 2% 3%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
 .socials {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1vw;
 }
 
 .socials a {
@@ -32,31 +32,34 @@
   color: #e3ca3c;
   display: flex;
   align-items: center;
-  gap: 1.2rem;
+  gap: 1.2vw;
 }
+
 .socialIcons {
-  font-size: 1.8rem;
+  font-size: 2vw;
 }
 
 .socialText {
   color: #fff;
   font-family: "montserrat";
+  font-size: 1.5vw;
 }
 
 .formContainer {
-  width: 30%;
+  width: 30vw;
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 1.2vw;
 }
+
 .formContainer input,
 textarea {
-  padding: 0.5rem 0.6rem;
+  padding: 0.5vw 0.6vw;
   background: transparent;
   outline: none;
   border: none;
-  border-bottom: 2px solid #e3ca3c;
-  font-size: 1rem;
+  border-bottom: 0.2vw solid #e3ca3c;
+  font-size: 1vw;
   font-family: "montserrat";
   color: #e3ca3c;
 }
@@ -68,9 +71,11 @@ textarea {
 .formContainer textarea::placeholder {
   color: #e3ca3c;
 }
+
 .formContainer textarea {
   resize: none;
 }
+
 .buttonContainer {
   display: flex;
   justify-content: end;
@@ -81,4 +86,29 @@ textarea {
   background-color: transparent;
   border: none;
   cursor: pointer;
+  color: #e3ca3c;
+  font-size: 2vw;
+}
+
+@media (max-width: 768px) {
+  .socialAndFormContainer {
+    align-items: start;
+  }
+
+  .socials {
+    align-items: start;
+  }
+
+  .formContainer {
+    width: 50vw;
+  }
+
+  .formContainer input,
+  textarea {
+    font-size: 2vw;
+  }
+
+  .buttonContainer button {
+    font-size: 3vw;
+  }
 }
