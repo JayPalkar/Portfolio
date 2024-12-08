@@ -15,25 +15,26 @@
 }
 
 .projectsContainer {
-  padding: 1rem 2rem;
+  padding: 2vw;
 }
 
 .projectImageContainer {
   display: grid;
   justify-content: center;
-  gap: 0.5rem;
-  grid-template-columns: repeat(3, 400px);
+  gap: 0.5vw;
+  grid-template-columns: repeat(3, 30vw);
   grid-template-areas:
     "    img1  .     ."
     "    img1  img2  ."
     "    .     img2  img3"
     "    .     .     img3";
 }
+
 .projectImage1,
 .projectImage2,
 .projectImage3 {
-  height: 300px;
-  border-radius: 0.5rem;
+  height: 20vw;
+  border-radius: 0.5vw;
   overflow: hidden;
 }
 
@@ -47,9 +48,11 @@
 .projectImage1 {
   grid-area: img1;
 }
+
 .projectImage2 {
   grid-area: img2;
 }
+
 .projectImage3 {
   grid-area: img3;
 }
@@ -57,18 +60,23 @@
 .projectButton {
   display: flex;
   justify-content: end;
-  margin-top: 5rem;
-  padding-right: 12rem;
+  margin-top: 5vw;
+  padding-right: 8vw;
 }
 
 .projectButton button {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.3rem 1.2rem;
-  font-size: 1.2rem;
-  border-radius: 50px;
+  padding: 0.3vw 1.2vw;
+  font-size: 2vw;
+  border-radius: 5vw;
   background-color: #e3ca3c;
   font-family: "montserrat";
   font-weight: 600;
+  gap: 0.3rem;
+}
+
+.projectButton button .arrowIcon {
+  font-style: bold;
 }
