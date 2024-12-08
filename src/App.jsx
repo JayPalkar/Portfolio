@@ -1,4 +1,4 @@
-import "./app.css";
+import "./App.css";
 import AboutMe from "./components/aboutMe/page";
 import ContactMe from "./components/contactme/page";
 import Hero from "./components/hero/page";
