@@ -1,17 +1,16 @@
 .sidebarContainer {
-  /* position: absolute; */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 1rem;
-  padding: 1.5rem 1rem;
+  gap: 1vw;
+  padding: 1.5vw 1vw;
   background-color: #fff;
-  border-radius: 50px;
+  border-radius: 5vw;
 }
 
 .sidebarLinks {
-  font-size: 1.8rem;
+  font-size: 2vw;
   text-decoration: none;
   color: #0a0116;
   transition: 0.2s ease;

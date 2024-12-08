@@ -8,31 +8,35 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
+  gap: 5vw;
+}
+
+.textContainer {
+  margin-top: 1.2vw;
 }
 
 .greetingText {
   font-family: "Pompiere";
   color: #e3ca3c;
-  font-size: 2rem;
+  font-size: 1.5vw;
 }
 
 .nameText {
   font-family: "Rammetto One";
   color: #fff;
-  font-size: 3rem;
+  font-size: 3vw;
 }
 
 .domainText {
   font-family: "poppins";
   color: #fff;
-  font-size: 2rem;
+  font-size: 2vw;
 }
 
 .tagLine {
   font-family: "montserrat";
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   font-weight: 300;
 }
 
@@ -41,13 +45,56 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 20vw;
+  height: 100%;
 }
 
 .heroSectionImage {
   position: absolute;
+  width: 100%;
+}
+
+.heroBackgroundImage {
+  width: 200%;
 }
 
 .sidebar {
   position: absolute;
-  right: 4rem;
+  right: 4vw;
+}
+
+@media (max-width: 768px) {
+  .heroSection {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .textContainer {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .heroBackgroundImage {
+    width: 100%;
+  }
+
+  .greetingText {
+    font-size: 3vw;
+  }
+
+  .nameText {
+    font-size: 5vw;
+  }
+
+  .domainText {
+    font-size: 2.5vw;
+  }
+
+  .tagLine {
+    font-size: 2vw;
+  }
+
+  .sidebar {
+    top: 0;
+  }
 }
