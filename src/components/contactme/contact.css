@@ -18,7 +18,7 @@
   padding: 2% 3%;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: start;
 }
 
 .socials {
@@ -83,11 +83,30 @@ textarea {
 }
 
 .buttonContainer button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  border-radius: 50%;
   background-color: transparent;
   border: none;
   cursor: pointer;
-  color: #e3ca3c;
+  background-color: #e3ca3c;
+  color: #0a0116;
   font-size: 2vw;
+}
+
+.loadingIcon {
+  animation: loading 1s ease-in-out infinite;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @media (max-width: 768px) {
