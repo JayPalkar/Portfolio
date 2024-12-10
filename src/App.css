@@ -1,4 +1,14 @@
 .mainAppContent {
-  position: relative;
-  z-index: 3;
+  display: grid;
+  grid-template-columns: 5vw 1fr;
+  height: 100vh;
+}
+
+.navContainer {
+  overflow-y: auto;
+}
+
+.componentContainer {
+  padding: 20px;
+  overflow-y: auto;
 }

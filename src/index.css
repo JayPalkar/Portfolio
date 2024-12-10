@@ -4,14 +4,6 @@
   margin: 0;
 }
 
-html,
-body {
-  overflow-x: hidden;
-  overflow-y: auto;
-  scroll-behavior: smooth;
-}
-
 body {
   background-color: #0a0116;
-  padding: 2% 3%;
 }

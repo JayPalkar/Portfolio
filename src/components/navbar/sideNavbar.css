@@ -1,18 +1,34 @@
 .sidebarContainer {
+  position: fixed;
+  top: 0vw;
+  left: 0;
+  min-height: 100%;
+  width: 5vw;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   flex-direction: column;
-  gap: 1vw;
-  padding: 1.5vw 1vw;
-  background-color: #fff;
-  border-radius: 5vw;
+  gap: 2vw;
+  padding: 1.5vw 0vw;
+  border-right: 0.1vw solid #e3ca3c;
+}
+
+.brandName {
+  font-family: "montserrat";
+  font-weight: 700;
+  font-size: 3vw;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0vw 0.9vw;
 }
 
 .sidebarLinks {
-  font-size: 2vw;
+  font-family: "montserrat";
+  writing-mode: vertical-lr;
+  text-orientation: sideways-right;
+  font-size: 1vw;
   text-decoration: none;
-  color: #0a0116;
+  color: #ffffff;
   transition: 0.2s ease;
 }
 

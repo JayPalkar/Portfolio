@@ -58,11 +58,6 @@
   width: 200%;
 }
 
-.sidebar {
-  position: absolute;
-  right: 4vw;
-}
-
 @media (max-width: 768px) {
   .heroSection {
     flex-direction: column;
@@ -92,9 +87,5 @@
 
   .tagLine {
     font-size: 2vw;
-  }
-
-  .sidebar {
-    top: 0;
   }
 }

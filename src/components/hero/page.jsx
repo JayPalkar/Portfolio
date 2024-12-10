@@ -1,6 +1,5 @@
 import "./heroSection.css";
 import myImage from "../../assets/my.png";
-import SideNavbar from "../navbar/sideNavbar";
 import bgImage from "../../assets/aboutmeImg.png";
 
 const Hero = () => {
@@ -20,9 +19,6 @@ const Hero = () => {
           <img className="heroSectionImage" src={myImage} alt="" />
         </div>
       </section>
-      <div className="sidebar">
-        <SideNavbar />
-      </div>
     </main>
   );
 };

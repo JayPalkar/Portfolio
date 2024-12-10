@@ -1,28 +1,23 @@
-import { BsBarChartFill } from "react-icons/bs";
-import { FaUser } from "react-icons/fa";
-import { IoHomeSharp } from "react-icons/io5";
-import { MdPhone } from "react-icons/md";
-import { PiCodeFill } from "react-icons/pi";
 import "./sideNavbar.css";
 
 const SideNavbar = () => {
   return (
     <>
       <div className="sidebarContainer">
-        <a className="sidebarLinks" href="#hero">
-          <IoHomeSharp />
+        <a className="brandName" href="#hero">
+          J.
         </a>
         <a className="sidebarLinks" href="#about">
-          <FaUser />
+          About
         </a>
         <a className="sidebarLinks" href="#projects">
-          <PiCodeFill />
+          Projects
         </a>
         <a className="sidebarLinks" href="#testimonials">
-          <BsBarChartFill />
+          Testimonial
         </a>
         <a className="sidebarLinks" href="#contact">
-          <MdPhone />
+          Contact
         </a>
       </div>
     </>
