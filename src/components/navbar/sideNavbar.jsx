@@ -2,10 +2,14 @@ import { useState } from "react";
 import "./sideNavbar.css";
 
 const SideNavbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(() =>
+    window.innerWidth <= 480 ? false : true
+  );
 
   const handleMenuOpen = () => {
-    setMenuOpen(!menuOpen);
+    if (window.innerWidth <= 480) {
+      setMenuOpen(!menuOpen);
+    }
   };
 
   return (
@@ -26,18 +30,22 @@ const SideNavbar = () => {
             }`}
           ></div>
         </button>
-        <a className="sidebarLinks" href="#about">
-          About
-        </a>
-        <a className="sidebarLinks" href="#projects">
-          Projects
-        </a>
-        <a className="sidebarLinks" href="#testimonials">
-          Testimonial
-        </a>
-        <a className="sidebarLinks" href="#contact">
-          Contact
-        </a>
+        {menuOpen && (
+          <div className="menuLinks">
+            <a className="sidebarLinks" href="#about">
+              About
+            </a>
+            <a className="sidebarLinks" href="#projects">
+              Projects
+            </a>
+            <a className="sidebarLinks" href="#testimonials">
+              Testimonial
+            </a>
+            <a className="sidebarLinks" href="#contact">
+              Contact
+            </a>
+          </div>
+        )}
       </div>
     </>
   );

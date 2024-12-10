@@ -13,6 +13,14 @@
   border-right: 0.1vw solid #e3ca3c;
 }
 
+.menuLinks {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  gap: 2vw;
+}
+
 .brandName {
   font-family: "montserrat";
   font-weight: 700;
