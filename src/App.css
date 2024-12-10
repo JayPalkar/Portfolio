@@ -11,4 +11,5 @@
 .componentContainer {
   padding: 20px;
   overflow-y: auto;
+  scroll-behavior: smooth;
 }
