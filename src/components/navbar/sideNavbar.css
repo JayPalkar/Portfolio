@@ -35,3 +35,43 @@
 .sidebarLinks:hover {
   color: #e3ca3c;
 }
+
+.hamburgerButton {
+  padding: 1vw;
+  background-color: transparent;
+  border: none;
+  display: none;
+}
+
+.hamburgerBar {
+  width: 12px;
+  height: 1px;
+  background-color: #fff;
+  transition: all ease-in-out 0.5s;
+}
+
+.topBar {
+  margin-bottom: 2px;
+}
+
+.bottomBar {
+  width: 8px;
+  margin-top: 2px;
+}
+
+.transformToCross.topBar {
+  transform: rotate(60deg);
+  margin: 0;
+}
+
+.transformToCross.bottomBar {
+  width: 12px;
+  transform: rotate(-60deg);
+  margin: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .hamburgerButton {
+    display: block;
+  }
+}
