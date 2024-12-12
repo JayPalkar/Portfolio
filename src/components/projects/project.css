@@ -56,27 +56,3 @@
 .projectImage3 {
   grid-area: img3;
 }
-
-.projectButton {
-  display: flex;
-  justify-content: end;
-  margin-top: 5vw;
-  padding-right: 8vw;
-}
-
-.projectButton button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0.3vw 1.2vw;
-  font-size: 2vw;
-  border-radius: 5vw;
-  background-color: #e3ca3c;
-  font-family: "montserrat";
-  font-weight: 600;
-  gap: 0.3rem;
-}
-
-.projectButton button .arrowIcon {
-  font-style: bold;
-}

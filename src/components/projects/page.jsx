@@ -1,7 +1,6 @@
 import "./project.css";
 import project1 from "../../assets/projects/AstroidHunter.png";
 import project2 from "../../assets/projects/frontpage.png";
-import { RxDoubleArrowRight } from "react-icons/rx";
 
 const Projects = () => {
   return (
@@ -22,12 +21,6 @@ const Projects = () => {
             <img src={project1} alt="project3" />
           </div>
         </div>
-      </div>
-      <div className="projectButton">
-        <button>
-          Explore All
-          <RxDoubleArrowRight className="arrowIcon" />
-        </button>
       </div>
     </section>
   );
