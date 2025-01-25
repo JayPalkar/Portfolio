@@ -17,9 +17,6 @@ const Projects = () => {
           <div className="projectImage2">
             <img src={project2} alt="project2" />
           </div>
-          <div className="projectImage3">
-            <img src={project1} alt="project3" />
-          </div>
         </div>
       </div>
     </section>
